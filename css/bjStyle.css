@@ -1,0 +1,118 @@
+/* font-family: 'Chivo Mono', monospace; */
+/* dark blue: #3d5a80
+medium blue: #98c1d9
+light blue: #e0fbfc
+red: #ee6c4d
+darkest: #293241 */
+
+body {
+    font-family: 'Chivo Mono', monospace;
+    background-color: #98c1d9;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #e0fbfc;
+    padding: 2px;
+    margin: 5px;
+    background-color: #293241;
+}
+
+.message-box {
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#player-hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 80vw;
+    border: 2px solid #ee6c4d;
+    background-color: #3d5a80;
+}
+
+.player-name {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #e0fbfc;
+}
+
+.buttons {
+    margin: 5px;
+}
+
+#deal-button {
+    background-color: #e0fbfc;
+    font-size: 15px;
+}
+
+#hit-button {
+    background-color: #e0fbfc;
+    font-size: 15px;
+}
+
+#stand-button {
+    background-color: #e0fbfc;
+    font-size: 15px;
+}
+
+#reset-button {
+    background-color: #e0fbfc;
+    font-size: 15px;
+}
+
+.card {
+    height: 180px;
+    margin: 2px;
+}
+
+#dealer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#dealer-flop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 2px solid #ee6c4d;
+    background-color: rgb(61, 90, 128);
+    width: 15vw;
+}
+
+#dealer-hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 2px solid #ee6c4d;
+    background-color: #3d5a80;
+    width: 65vw;
+}
+
+.result-win {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: lightgreen;
+}
+
+.result-lose {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #ee6c4d;
+}
