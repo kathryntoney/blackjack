@@ -6,11 +6,24 @@ red: #ee6c4d
 darkest: #293241 */
 
 body {
-    font-family: 'Chivo Mono', monospace;
     background-color: #98c1d9;
 }
 
+#title {
+    font-family: 'Chivo Mono', monospace;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #ee6c4d;
+    background-color: #293241;
+
+    padding: 2px;
+    margin: 5px;
+    width: 20vw;
+}
+
 .container-fluid {
+    font-family: 'Chivo Mono', monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;

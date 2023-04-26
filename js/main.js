@@ -116,8 +116,8 @@ class Dealer extends Player {
     dealerWins(player) {
         dealerDisplay.setAttribute('class', 'result-win')
         playerDisplay.setAttribute('class', 'result-lose')
-        dealerWinCount += 1;
         dealButton.disabled = false;
+        dealerWinCount += 1;
     }
 }
 
