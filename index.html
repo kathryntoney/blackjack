@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bjStyle.css">
+</head>
+
+<body>
+  <div class="message-box" id="messages"></div>
+  <div class="table container-fluid">
+    <div class="player">
+      <label class="player-name" id="dealerDisplay">Dealer:
+        <span id="dealer-points" class="points"></span>
+      </label>
+      <div id="dealer-container">
+        <div id="dealer-flop" class="hand"></div>
+        <div id="dealer-hand" class="hand"></div>
+      </div>
+    </div>
+    <div class="player">
+      <label class="player-name" id="playerDisplay">Player:
+        <span id="player-points" class="points"></span>
+      </label>
+      <div id="player-hand" class="hand">
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="deal-button" type="button">Deal</button>
+      <button id="hit-button" type="button">Hit</button>
+      <button id="stand-button" type="button">Stand</button>
+      <button id="reset-button" type="button">Reset</button>
+    </div>
+  </div>
+  <div class="message-box" id="win-count"></div>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
